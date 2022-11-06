@@ -6,8 +6,8 @@ start() {
 	rm -rf autMan_arm64.tar.gz ;
 	chmod 777 autMan;
 	pkill -9 autMan;
-  autMan -t;
-  echo "初始化完成, 启动..."
+        autMan -t;
+  	echo "初始化完成, 启动..."
 }
 
 start
